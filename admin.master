@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="admin.master.cs" Inherits="admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 225px;
+        }
+        .style2
+        {
+            width: 85px;
+            height: 63px;
+        }
+        .style3
+        {
+            width: 310px;
+        }
+        .style4
+        {
+            width: 310px;
+            height: 57px;
+        }
+    </style>
+</head>
+<body style="width: 100%; height: 438px; margin-top: 28px; margin-bottom: 6px;">
+    <form id="form2" runat="server" style="background-color: #FFFFFF">
+    <div id="container">
+    <div id="header"">
+  <div id="login">
+   <div id="login">&nbsp;<br />
+       <span class="style1"><strong>
+       <span 
+           class="style10" style="font-size: xx-large">&nbsp;&nbsp;&nbsp;&nbsp;<img 
+           alt="" class="style2" src="Image2/download5.jpg" />
+&nbsp;&nbsp;&nbsp;&nbsp; </span>
+       <span 
+           class="style12" style="font-size: 75px"> 
+       &nbsp;</span><span class="style10">&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       </strong>
+&nbsp;&nbsp;
+       <strong style="background-color: #00FFFF">
+       <img alt="" class="style4" src="Image2/download3.png" /></strong></span><span class="style3"><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="style9"> </span>
+       <span class="style13" style="background-color: #C0C0C0">
+       Open your Technical world</span></div>
+      <div style="height: 53px; background-color: #FFCC99; vertical-align: middle;" 
+          class="style7">
+             <asp:Menu ID="Menu2" runat="server" ForeColor="Black" Height="54px" 
+                 Orientation="Horizontal" RenderingMode="Table" 
+                 
+                 style="color: #000000; margin-left: auto; font-weight: 700; font-size: large;" 
+                 Width="847px">
+                 <Items>
+                     <asp:MenuItem Text="Manage Product" NavigateUrl="~/addproduct.aspx">
+                     </asp:MenuItem>
+                     <asp:MenuItem Text="View Feedback" NavigateUrl="~/feedbackadmin.aspx"></asp:MenuItem>
+                     <asp:MenuItem NavigateUrl="~/registrationadmin.aspx" Text="View Registration" 
+                         Value="View Registration"></asp:MenuItem>
+                     <asp:MenuItem Text="View Orders" NavigateUrl="~/vieworder.aspx">
+                     </asp:MenuItem>
+                 </Items>
+             </asp:Menu>
+             <br class="style8" />        &nbsp;&nbsp;&nbsp;&nbsp;
+             <br />
+      </div>
+         
+ </div>
+  </div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

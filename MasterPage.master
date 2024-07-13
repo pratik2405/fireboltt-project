@@ -1,0 +1,103 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            
+            height: 78px;
+            width: 100%;
+        }
+        .style2
+        {
+            height: 78px;
+            width: 49px;
+        }
+        .style3
+        {
+            width: 132px;
+            height: 77px;
+            margin-top: 0px;
+        }
+        .style4
+        {
+            width: 391px;
+            height: 69px;
+            margin-left: 0px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <table width="100%">
+                <tr>
+                    <td class="style2">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img alt="" class="style3" src="image2/download5.jpg" align="top" /></td>
+                    <td align="center" 
+                        style="font-family: 'Bahnschrift SemiBold'; font-size: 30px;" 
+                        class="style1" height="90px" width="100%">
+                        &nbsp;<img alt="" class="style4" src="image2/download3.png" align="middle" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:ImageButton ID="ImageButton3" runat="server" Height="25px" 
+                            ImageUrl="~/Image/addcart.jpg" Width="38px" 
+                             />
+                        <asp:ImageButton ID="ImageButton2" runat="server" Height="21px" 
+                            ImageUrl="~/Image/user.jpg" PostBackUrl="~/loginaspx.aspx" Width="21px" 
+                            onclick="ImageButton2_Click" />
+                        &nbsp;&nbsp;</td>
+                </tr>
+            </table>
+        </asp:ContentPlaceHolder>
+    </div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+        
+            <asp:Menu ID="Menu1" runat="server" BorderColor="Black" BorderStyle="Solid" 
+                Orientation="Horizontal" RenderingMode="Table" Height="40px" 
+                Width="100%"  Font-Bold="True" 
+                ForeColor="Black" BorderWidth="1px">
+                <DynamicHoverStyle BackColor="White" BorderColor="Black" BorderStyle="Solid" />
+                <DynamicMenuItemStyle ItemSpacing="5px" VerticalPadding="2px" 
+                    BorderColor="Black" BorderStyle="Solid" Font-Italic="True" 
+                    HorizontalPadding="30px" />
+                <DynamicMenuStyle BackColor="#FF6600" BorderColor="Black" BorderStyle="Solid" 
+                    Width="150px" BorderWidth="1px" HorizontalPadding="10px" />
+                <Items>
+                    <asp:MenuItem Text="HOME" Value="Home" NavigateUrl="~/Home.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="COLLECTION" Value="collection" 
+                        NavigateUrl="~/product2.aspx">
+                    </asp:MenuItem> 
+                    <asp:MenuItem Text="ABOUT US" Value="ABOUT US" NavigateUrl="~/aboutus.aspx"></asp:MenuItem>
+                    
+                    <asp:MenuItem Text="FEEDBACK" Value="Feedback" NavigateUrl="~/Feedback.aspx"></asp:MenuItem>
+                </Items>
+                <StaticMenuItemStyle BackColor="#FF6600" Font-Bold="True" 
+                    Font-Names="Bahnschrift Light" ForeColor="Black" HorizontalPadding="80px" 
+                    VerticalPadding="6px" BorderColor="Black" BorderStyle="Solid" />
+                <StaticMenuStyle BorderStyle="Solid" BackColor="White" BorderColor="Black" />
+                <StaticSelectedStyle BorderColor="Black" BorderStyle="Solid" />
+            </asp:Menu>
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder3" runat="server" Visible="True">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder4" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
