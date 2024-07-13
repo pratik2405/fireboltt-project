@@ -9,7 +9,7 @@ Administrators can manage orders, user accounts, and feedback efficiently.
 Features :-
 
 User Features:-
-1) View Product Details: Users can browse and view detailed information about each product.
+  1) View Product Details: Users can browse and view detailed information about each product.
      
   2)Add to Cart: Users can add products to their shopping cart for purchase.
   
@@ -38,8 +38,14 @@ Tech Stack :-
   
 
   Database Schema
+  
  Table Name   :  Description
+ 
  Registration :- Store user account information
+ 
  Product      :-	Contains product details
+ 
  Purchase	   :- Keeps track of user orders
+ 
  Feedback	   :- Stores user feedback and reviews
+ 
