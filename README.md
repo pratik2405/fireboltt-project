@@ -1,12 +1,15 @@
 Overview :-
-This project is a clone of the Fire Boltt website, developed using the .NET Framework and C#. 
+This project is a clone of the Fire Boltt website, developed using the .NET Framework and C#.
+
 The application allows users to browse products, add items to their cart, log in to their accounts, and provide feedback on services. 
+
 Administrators can manage orders, user accounts, and feedback efficiently.
+
 
 Features :-
 
 User Features:-
-  1) View Product Details: Users can browse and view detailed information about each product.
+1) View Product Details: Users can browse and view detailed information about each product.
      
   2)Add to Cart: Users can add products to their shopping cart for purchase.
   
@@ -24,10 +27,15 @@ Admin Features:-
   
 
 Tech Stack :-
+
   Frontend: ASP.NET MVC.
+  
   Backend: C#.
+  
   Database: SQL Server.
+  
   Tools:  Microsoft Visual Studio(2010).
+  
 
   Database Schema
  Table Name   :  Description
