@@ -22,7 +22,7 @@ public partial class adminlogin : System.Web.UI.Page
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
-        if (TextBox1.Text == "sumati12345@gmail.com" && TextBox7.Text == "sumati")
+        if (TextBox1.Text == "pratik123@gmail.com" && TextBox7.Text == "pratik")
         {
             Response.Write("<script>alert('Your Login is successful')</script>");
             Response.Redirect("addproduct.aspx");
