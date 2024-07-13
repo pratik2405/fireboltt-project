@@ -7,13 +7,21 @@ Features :-
 
 User Features:-
   1) View Product Details: Users can browse and view detailed information about each product.
+     
   2)Add to Cart: Users can add products to their shopping cart for purchase.
+  
   3)User Login: Secure user authentication for accessing account features.
+  
   4)Feedback Form: Users can provide feedback on their experience with the service.
+  
 Admin Features:-
+
   1)View Orders: Admins can view all orders placed by users.
+  
   2)Manage User Accounts: Admins can view and manage user accounts.
+  
   3)View Feedback: Admins can view feedback submitted by users for service improvement.
+  
 
 Tech Stack :-
   Frontend: ASP.NET MVC.
