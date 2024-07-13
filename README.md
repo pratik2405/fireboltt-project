@@ -2,8 +2,8 @@ Overview :-
 This project is a clone of the Fire Boltt website, developed using the .NET Framework and C#.
 
 The application allows users to browse products, add items to their cart, log in to their accounts, and provide feedback on services. 
-
 Administrators can manage orders, user accounts, and feedback efficiently.
+
 
 
 Features :-
@@ -26,6 +26,7 @@ Admin Features:-
   3)View Feedback: Admins can view feedback submitted by users for service improvement.
   
 
+
 Tech Stack :-
 
   Frontend: ASP.NET MVC.
@@ -37,7 +38,9 @@ Tech Stack :-
   Tools:  Microsoft Visual Studio(2010).
   
 
+
   Database Schema
+
   
  Table Name   :  Description
  
