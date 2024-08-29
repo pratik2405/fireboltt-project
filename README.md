@@ -40,8 +40,6 @@ Administrators can manage orders, user accounts, and feedback efficiently.
 
   ## Database Schema :-
 
-  
-**Table Name :-**  Description
  
 **Registration :-** Store user account information
  
