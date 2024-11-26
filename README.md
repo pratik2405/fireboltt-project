@@ -28,7 +28,7 @@ Administrators can manage orders, user accounts, and feedback efficiently.
 
 ## Tech Stack :-
 
-  **Frontend :** ASP Core.NET
+  **Frontend :** ASP.NET Core
   
   **Backend :** C#.
   
